@@ -56,6 +56,7 @@ public class PinCodeInputView<T: UIView & ItemType>: UIControl, UITextInputTrait
     public var keyboardAppearance = UIKeyboardAppearance.default
     public var returnKeyType = UIReturnKeyType.done
     public var enablesReturnKeyAutomatically = true
+    public var textContentType: UITextContentType! = nil
 
     // MARK: - Initializers
     
